@@ -20,10 +20,10 @@ const clearButton = document.querySelector('button')
 
 
 function clearCopies(evt) {
-    console.log(evt)
-    const copies = document.querySelectorAll('.copy')
-    console.log(copies)
     
+    const copies = document.querySelectorAll('.copy')
+    
+
     for (copy of copies) {
         copy.remove()
     }
